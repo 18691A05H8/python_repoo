@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
 
+<<<<<<< HEAD
 # Comments are provided throughout this file to help you get started.
 # If you need more help, visit the Dockerfile reference guide at
 # https://docs.docker.com/go/dockerfile-reference/
@@ -49,3 +50,11 @@ EXPOSE 5000
 
 # Run the application.
 CMD python3 -m flask run --host=0.0.0.0
+=======
+FROM node:18-alpine
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
+>>>>>>> fc235545e0a796892e7dd1f101fe22db858baee0
