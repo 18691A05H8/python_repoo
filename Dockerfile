@@ -49,7 +49,6 @@ EXPOSE 5000
 
 # Run the application.
 CMD python3 -m flask run --host=0.0.0.0
-=======
 FROM node:18-alpine
 WORKDIR /app
 COPY . .
