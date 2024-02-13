@@ -55,4 +55,3 @@ COPY . .
 RUN yarn install --production
 CMD ["node", "src/index.js"]
 EXPOSE 300
-fc235545e0a796892e7dd1f101fe22db858baee0
