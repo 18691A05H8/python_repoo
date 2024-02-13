@@ -54,5 +54,5 @@ WORKDIR /app
 COPY . .
 RUN yarn install --production
 CMD ["node", "src/index.js"]
-EXPOSE 3000
->>>>>>> fc235545e0a796892e7dd1f101fe22db858baee0
+EXPOSE 300
+fc235545e0a796892e7dd1f101fe22db858baee0
